@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Cabin+Sketch|Fredericka+the+Great|Muli');
+
+a, a:visited {
+	text-decoration : none;
+	color : #ccc;
+	position : relative;
+}
+a:hover {
+	text-decoration : underline;
+}
+div, p, body, ul, li, h1, h2, h3 {
+	display : block;
+	margin : 0;
+	padding : 0;
+	border : none;
+}
+ul {
+	list-style : none;
+}
+h1, h2, h3 {
+	font-weight : normal;
+}
+abbr {
+	border : none;
+}
+body {
+	position : relative;
+	background : url('http://i.imgur.com/XAUt7rP.jpg') 50% 0% repeat-y #000;
+	text-align : center;
+	z-index : 1;
+}
+.page-wrapper {
+	position : relative;
+	width : 90%;
+	margin : 0 auto;
+	padding : 230px 0 350px 0;
+	font-size : 0.8em;
+	font-family : arial, sans serif;
+	background-color : #313131;
+	color : #b9b9b9;
+	text-align : left;
+	background-image : url('');
+	z-index : 3;
+	background: rgba(0, 0, 0, 0.5);
+	font-family: 'Muli', sans-serif;
+}
+p {
+font-family: 'Muli', sans-serif;
+}
+.intro {
+text-align : center;
+}
+header h1 {
+	margin-top: -80px;
+	font-size: 70px;
+	font-family: 'Fredericka the Great', cursive;
+	text-transform: uppercase;
+}
+h2 {
+	font-size: 40px;
+	font-family: 'Cabin Sketch', cursive;
+}
+.summary {
+	align-content: stretch;
+	margin-top: 100px;
+	font-size: 24px;
+	padding: 0 60px 0 60px;
+	font-family: 'Muli', sans-serif;
+}
+.preamble {
+	font-family: 'Muli', sans-serif;
+	margin-top: 40px;
+}
+.preamble h3 {
+	font-size: 30px;
+	margin-bottom: 20px;
+	font-family: 'Bree Serif', serif;
+}
+.preamble p {
+	font-size: 24px;
+	padding: 0 20px 40px 20px;
+}
+.main {
+	display: flex;
+	justify-content: space-around;
+	flex-flow: row wrap;
+}
+.explanation {
+	width: 40%;
+}
+.participation {
+	width: 50%;
+}
+.benefits {
+	width: 90%;
+	margin-top: 30px;
+}
+.requirements {
+	width: 90%;
+	margin-top: 30px;
+}
+.main h3 {
+	font-family: 'Bree Serif', serif;
+	font-size: 30px;
+	margin-bottom: 10px;
+	text-align: center;
+	padding: 10px;
+}
+.main p {
+	font-size: 24px;
+}
+footer {
+	margin-top: 100px;
+	font-size: 24px;
+}
+footer a {
+	padding: 10px;
+}
+.wrapper {
+	margin-top: 30px;
+	font-size: 18px;
+	line-height: 1.2;
+	display: flex;
+	justify-content: space-around;
+}
+
+.extra1 {
+	position : fixed;
+	top : 0;
+	left : 0;
+	width : 100%;
+	height : 23.2% !important ;
+	height : 102px;
+	min-height : 102px;
+	max-height : 230px;
+	z-index : 2;
+}
+.extra1::after {
+	content : " ";
+	display : block;
+	position : absolute;
+	bottom : -198px;
+	left : 0;
+	width : 100%;
+	height : 200px;
+	padding-top: 100px;
+	background : url('http://i.imgur.com/XAUt7rP.jpg') 50% 100% no-repeat;
+}
+.extra2 {
+	position : fixed !important ;
+	position : absolute;
+	top : 0;
+	left : 0;
+	width : 100%;
+	height : 23.2% !important ;
+	height : 102px;
+	min-height : 102px;
+	max-height : 230px;
+	background : url('') 50% 100% no-repeat;
+	z-index : 4;
+}
+.extra3 {
+	position : fixed !important ;
+	position : absolute;
+	bottom : 0;
+	left : 0;
+	width : 100%;
+	height : 10% !important ;
+	height : 50px;
+	min-height : 50px;
+	max-height : 318px;
+	background : url('http://i.imgur.com/XAUt7rP.jpg') 50% 0% no-repeat;
+	z-index : 4;
+}
